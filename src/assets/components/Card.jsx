@@ -2,7 +2,7 @@ import React from "react";
 
 function Card() {
   return (
-    <div className="bg-white my-5 p-3 sm:mx-6">
+    <div className="bg-white my-5 p-3 sm:mx-6 rounded-md">
       {/* Subreddit logo and posted by */}
       <div className="flex pb-2 text-xs">
         <h1 className="font-medium">SubredditLogo</h1>
@@ -12,7 +12,7 @@ function Card() {
       {/* Title and content */}
       <div>
         <h2 className="text-xl font-semibold mb-4">Post title</h2>
-        <p className="mb-4">
+        <p className="mb-4 text-sm">
           Content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Earum placeat facere sed hic beatae! Quidem cumque rerum adipisci
           aspernatur modi doloribus. Cupiditate quod explicabo incidunt odio
@@ -28,7 +28,7 @@ function Card() {
       </div>
 
         {/* votes and comments */}
-      <div className="flex">
+      <div className="flex text-sm">
         <p>Votes: 18</p>
         <p className="px-4">Comments</p>
       </div>
